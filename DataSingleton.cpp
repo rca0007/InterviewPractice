@@ -1,5 +1,7 @@
 #include "DataSingleton.h"
 
+//this is a singleton
+
 Singleton* Singleton::thisInstance = NULL;
 int Singleton::size = 0;
 int Singleton::totalCapacity = 10;
